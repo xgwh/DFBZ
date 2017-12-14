@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+.news,h1,h2,h3,h4,h5,h6,.left,.right,ul,li,dl,dd,dt,top,.bottom{display:block;}
+.clearfix:after{display:block; height:0; line-height:0; content:".";visibility:hidden; clear:both;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}

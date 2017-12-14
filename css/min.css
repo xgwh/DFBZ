@@ -1,0 +1,645 @@
+@charset "utf-8";
+/*index start*/
+.box{
+	width:100%;
+}
+aside{
+	display: none;
+}
+.lion-cat{
+	width:150px;
+}
+.lion-cat a{
+	width:50%;
+	height:71px;
+	line-height:71px;
+	float:left;
+}
+.lion-cat a{
+	line-height:20px;
+	height:40px;
+	padding-top:15.5px;
+	padding-bottom:15.5px;
+}
+.lion-cat a span{
+	display: none;
+}
+.br{
+	display: block !important;
+}
+nav{
+	display: block;
+	height:71px;
+	background:#132031;
+	position: relative;
+}
+nav ul{
+	width: 100%;
+	background:#132031;
+	position: absolute;
+	top:71px;
+	z-index: 99999;
+}
+nav ul li{
+	padding-left:20px;
+	border-top:1px solid #142B49;
+	height:40px;
+	line-height:40px;
+}
+nav ul li a{
+	font-size:13px;
+	color:white;
+	font-weight: bold;
+	transition:all .3s ease .3s;
+}
+nav ul li:hover a{
+	color:#007EDB;
+}
+.nav_min{
+	width:46px;
+	height:55px;
+	text-align:center;
+	color:white;
+	padding-top:10px;
+	font-size:12px;
+	float:left;
+	
+}
+.nav_min span{
+	display: block;
+	width:22px;
+	height:14px;
+	margin:0px auto;
+	background:url(../img/logo_btn1.png) no-repeat center bottom;
+	background-size: 100% 100%;
+	margin-bottom:8px;
+}
+.nav_img{
+	width:128px;
+	height:20px;
+	position: absolute;
+	top:50%;
+	margin-top:-10px;
+	left:50%;
+	margin-left:-64px;
+	display: -webkit-box; 
+    display: -moz-box; 
+    display: -webkit-flex; 
+    display: -moz-flex; 
+    display: -ms-flexbox;
+    display: flex;
+    overflow:hidden;
+}
+.order{
+	position:relative;
+	padding-top:60px;
+}
+.order:before{
+	position: absolute;
+	top:0px;
+	background:#ECECEE !important;
+	left:0px;
+	content: "";
+	height:40px;
+	width:100%;
+}
+.min{height:506px !important;}
+.order>div:last-of-type{
+	display:none;
+	width:80%;
+	margin:0px auto;
+	border:1px solid #A1A1A1;
+	padding-left:20px;
+	padding-right:20px;
+	height:506px;
+}
+.order>div>a{
+	display:block;
+	height:50px;
+	width:100% !important;
+	text-align:left !important;
+	border-bottom:1px solid #A1A1A1;
+	margin-top:4px;
+}
+.order>div>a>div{
+	display: none !important;
+}
+.order>.min_order{
+	padding-left:20px;
+	padding-right:20px;
+	display: block;
+	width:80%;
+	margin:0px auto;
+	height:40px;
+	line-height:40px;
+	background:#0082D9;
+	font-size:14px;
+	color:white;
+}
+.min_order span{
+	display:block;
+	float:right;
+	width:15px;
+	height:15px;
+	line-height:15px;
+	margin:12.5px auto;
+	margin-right:-15px;
+	transform: rotate(90deg);
+}
+section{
+	width:100% !important;
+	margin-left:0px;
+}
+section .banner{
+	width:100%;
+	min-height: 100px;
+	max-height:400px;
+}
+section>.query{
+	width:85%;
+}
+section .query p>span{
+	width:80%;
+	left:50%;
+	margin-left:-40%;
+}
+section .query p>span>label{
+	width:35%;
+}
+section .query p>span>a{
+	width:15%;
+}
+section>h2{
+	width:85%;
+}
+.five{
+	width:85%;
+	overflow:hidden;
+	position:relative;
+}
+.five>.min_banner{
+	display: none;
+}
+.five>ul{
+	width:300%;
+	display: -webkit-box; 
+    display: -moz-box; 
+    display: -webkit-flex; 
+    display: -moz-flex; 
+    display: -ms-flexbox;
+    display: flex;
+}
+.five>p{
+	display:block;
+}
+/*.five>p:first-of-type{
+	position: absolute;
+	top:34%;
+	width:100%;
+}
+.five>p:first-of-type>span{
+	background: rgba(0, 0, 0, 0.5);
+	width:30px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	border:0px;
+}
+.five>p:first-of-type>span:last-of-type{
+	float:right;
+}*/
+.five>p:last-of-type{
+	width:100%;
+	height:20px;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:30px;
+}
+.five>p:last-of-type a{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:#e4e6e9;
+	margin-left:10px;
+	border-radius:5px;
+}
+.five span{
+	width:100%;
+}
+.five>p>span:before{display: none;}
+.newswork{
+	width:85%;
+}
+footer{
+	width:100%;
+}
+footer ul{
+	width:85% !important;
+}
+footer ul li{
+	width:30%;
+	margin-left:0px;
+}
+footer p:last-of-type{
+		width:85%;
+	}
+footer .map{
+	width:85%;	
+	}
+
+section .query p>span>label a{
+	width:90%;
+	overflow:hidden;
+}
+section .query p>span select{
+	width: 120%;
+}
+
+/*index over*/
+
+
+/*exhibit start*/
+.min_map{
+	width:100%;
+	margin:0px;
+	line-height:40px;
+	height:40px;
+	text-align:center;
+	padding:0px;
+}
+.min_map p{
+	display:none;
+}
+.min_map span{
+	font-size:18px;
+}
+.choice{
+	margin:0px auto;
+	margin-top:100px;
+	width:85%;
+}
+.choice ul{
+	width:100%;
+}
+.choice ul li{
+	border:0px;
+	width:50%;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	height:184px;
+}
+.choice> ul li a:nth-of-type(1){
+	position:absolute;
+	top:110px;
+	width:100%;
+	text-align: center;;
+}
+.choice> ul li a:nth-of-type(2){
+	width:70% !important;
+}
+.choice> ul li>span{
+	margin-top:40px;
+}
+.choice ul li a:last-of-type{
+	display:none;
+}
+
+/*exhibit over*/
+/*购车助手order start*/
+.form_box{
+	width:85%;
+}
+.myform p select:nth-of-type(3){
+	width:62.5%;
+}
+.myform p select{
+	width:30%;
+}
+.myform p:nth-of-type(1) select{
+	width:252px;
+}
+/*购车助手order over*/
+/*车主服务serve start*/
+section>
+p,.datails{
+	width:85%;
+	
+}
+.datails img{
+	width:90%;
+}
+section>p:first-of-type{
+	margin-top:100px;
+}
+/*车主服务serve over*/
+/*品牌天地world start*/
+.world{
+	width:85%;
+}
+.world_banner p a{
+	display: none;
+	transition:all .5s ease .5s;
+}
+.world_banner:hover p a{
+	display:block;
+}
+/*品牌天地world over*/
+/*金融服务guide start*/
+.guide{
+	width:85%;
+}
+.guide p{
+	width:100%;
+	box-sizing: border-box;
+}
+.flow{
+	width:50% !important;
+}
+.guide ul{
+	width:100%;
+}
+.guide ul li{
+	width:33.3%;
+	box-sizing: border-box;
+}
+.guide_banner p a{
+	display:none;
+	transition:all .5s ease .5s;
+}
+.guide_banner:hover p a{
+	display:block;
+}
+.scheme form .form_left, .form_right{
+	width:50%;
+}
+.scheme form{
+	width:100%;
+}
+/*金融服务guide over*/
+/*经销商查询dealer start*/
+.quote{
+	width:85%;
+}
+.quote_min .quote_img{
+	width:100%;
+	box-sizing: border-box;
+	padding:0px;
+	background: #e4e6e9;
+	border:1px solid #ccc;
+}
+.quote_min ul{
+	width:100%;
+	padding:0px;
+	margin-right:0px;
+}
+.ram{
+	width:85%;
+}
+.ram li{
+	width:33%;
+}
+section>.query{
+	width:85%;
+}
+.quote_min .quote_img img{
+	width:70%;
+	margin: 0px auto;
+}
+.quote_min ul li:first-of-type{
+	display:none;
+}
+.quote_min ul li span{
+	width: 100% !important;
+	padding-left:12px;
+}
+/*经销商查询dealer over*/
+@media only screen and (max-width:883px ) {
+footer .map>ul li{
+		width:45% !important;
+		margin-right:5%;
+		margin-left:0px;
+}
+}
+@media only screen and (max-width: 766px){
+	section .query ul li{width:100%;}
+	
+	.newswork ul li{
+		width:100%;
+	}
+	footer .map>ul li{
+		width:100% !important;
+		margin-right:0;
+		margin-left:0px;
+}
+	footer ul li{
+		width:97%;
+	}
+	footer ul li a{
+		width:100% !important;
+	}
+	.tiny{
+		margin:0px auto;
+	}
+	footer p:last-of-type span{
+		width:100%;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	section .query p>span>label{
+		width:49%;
+	}
+	section .query p>span>a{
+		width:50%;
+		margin-left:25%;
+	}
+	section .query p>span>a span{
+		width:80%;
+		text-align:center;
+	}
+	section .query p{
+		height:126px;
+	}
+	.myform p label{
+	width:100%;
+	padding:0px;
+	margin:0px auto;
+	text-align:left;
+	}
+	.myform p input[type=text]{
+		width:90%;
+	}
+	.myform p select{
+		width:92%;
+	}
+	.myform p:nth-of-type(4) select:nth-of-type(1),
+	.myform p:nth-of-type(4) select:nth-of-type(2)
+	{
+		width:44.5%;
+	}
+	.myform p select:nth-of-type(3){
+		width:92% !important;
+		margin-left:0px;
+	}
+	.myform p:nth-of-type(6) label,
+	.myform p:nth-of-type(7) label{
+		display: none;
+	}
+	.myform p:nth-of-type(1) select{
+		width:92%;
+	}
+	.scheme .select{
+		width:100%;
+	}
+	.scheme .select select{
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+	}
+	.scheme form .form_left, .form_right{
+	width:100%;
+}
+	.scheme form p{
+		width:100%;
+	}
+	.scheme form p label{
+		width:12.2%;
+		box-sizing: border-box;
+		padding-right:1%;
+	}
+	.scheme form p input{
+		width:84.8%;
+	}
+	.ram li{
+	width:100%;
+	}
+	section .query p>span label{
+		width:50%;
+		float:left;
+		box-sizing: border-box;
+	}
+	section .query p>span{
+		top:22%;
+	}
+	section .query p{
+		height:140px;
+	}
+	section .query p>img{
+		height:100%;
+	}
+}
+@media only screen and (max-width:722px ) {
+	.scheme form p input{
+		width:78.8%;
+	}
+	.scheme form p label{
+		width:13.2%;
+	}
+}
+@media only screen and (max-width:448px ) {
+	.lion-cat{
+		display: none;
+	}
+	section .query p{
+		height:86px;
+	}
+	section .query p>span select{
+		height:20px !important;
+		line-height:20px !important;
+	}
+	section .query p>span>label a{
+		height:20px !important;
+		line-height:20px !important;
+	}
+	section .query p>span>label{
+		height:20px !important;
+		line-height:20px !important;
+	}
+	section .query p>span>label:before{
+		width:20px;
+		height:20px;
+		line-height:20px;
+	}
+	section .query p>span>a{
+		height:20px;
+		line-height:20px;
+		margin-top:10px;
+		padding:0px;
+	}
+	section .query p>span>a span{
+		height:20px;
+		line-height:20px;
+		width:100%;
+		margin:0px;
+	}
+	section .query p>span>a img{
+		display:none;
+	}
+	section .query ul li a:last-of-type{
+		display: none;
+	}
+	.myform p select{
+		width:100% !important;
+		margin-right:0px;
+	}
+	.myform p:nth-of-type(4) select{
+		margin-top:15px;
+		width:100% !important;
+	}
+	.myform p input[type=text]{
+		width:95%;
+		padding-left:5%;
+	}
+	.scheme form p input{
+		width:70.8%;
+	}
+	.scheme form p label{
+		width:20.2%;
+		overflow: hidden;
+	}
+	.scheme form .form_img{
+		width:100%;
+	}
+}
+@media only screen and (max-width:460px) {
+.choice{
+	margin-top:10px;
+}
+.choice> ul li {
+	width:100%;
+}	
+.prm>div>div{
+	width:100%;
+}
+.prm>div>div>div:nth-of-type(2){
+	width:100%;
+}
+section>p:last-of-type{
+	margin:10px auto;
+}
+.up{
+	bottom:40px;
+}
+.dealer_nav{
+	display: none;
+}
+.map_nav a{
+	display: none;
+}
+.map_nav a:first-of-type{
+	display:block;
+	width: 100%;
+}
+}
+.add{
+	display: none;
+}
+
+
+
+
+
+
+
+

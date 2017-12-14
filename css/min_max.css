@@ -1,0 +1,135 @@
+@charset "utf-8";
+body{
+	overflow-x:hidden;
+}
+.box{
+	width:100%;
+}
+.banner{
+	width:100%;
+}
+footer{
+	width:100%;
+}
+footer ul {
+	width:85% !important;
+}
+footer ul li{
+	float:left;
+	width:30%;
+}
+footer li>a:first-of-type {
+	width:100%;
+}
+/*车型展示 exhibit start*/
+.choice{
+	width:85% !important;
+	}
+.choice> ul{
+	width:100%;
+}
+.choice> ul li{
+	width:31%;
+	padding:1%;
+}
+
+/*车型展示 exhibit over*/
+
+/*购车助手 order start*/
+.form_box{
+	width:85%;
+	margin:50px auto;
+}
+.myform p label{
+	width:10%;
+	overflow:hidden;
+}
+.myform p select{
+	width:30%;
+}
+.myform p select:nth-of-type(3){
+	width:62.5%;
+}
+.myform p:nth-of-type(4) label{
+	height:100%;
+}
+.myform p input[type=text]{
+	width:28.9%;
+}
+
+/*购车助手 order over*/
+
+/*车主服务serve start*/
+section>
+p,.datails{
+	width:85%;
+	
+}
+/*车主服务serve over*/
+
+/*品牌天地world start*/
+.world{
+	width:85%;l
+}
+/*品牌天地world over*/
+
+/*金融服务guide start*/
+.guide{
+	width:85%;
+}
+.guide p{
+	width:100%;
+	box-sizing: border-box;
+}
+.flow{
+	width:50% !important;
+}
+.guide ul{
+	width:100%;
+}
+.guide ul li{
+	width:33.3%;
+	box-sizing: border-box;
+}
+.scheme .select select{
+	display:block;
+	float:left;
+	width:46%;
+	box-sizing: border-box;
+}
+/*金融服务guide over*/
+
+/*经销商查询dealer start*/
+.quote{
+	width:85%;
+}
+.quote_min .quote_img{
+	width:22.8%;
+	box-sizing: border-box;
+	padding-right:1.2%;
+	padding-left:1.2%;
+}
+.quote_min ul{
+	width:75%;
+	box-sizing: border-box;
+	padding:0px;
+	margin-right:0px;
+}
+.ram{
+	width:85%;
+}
+.ram li{
+	width:33%;
+}
+section>.query{
+	width:85%;
+}
+/*经销商查询dealer over*/
+
+
+
+
+
+
+
+

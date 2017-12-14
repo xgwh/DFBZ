@@ -1,0 +1,16 @@
+@charset "utf-8";
+.box{
+	width:100%;
+}
+section {
+    width: 983px;
+    margin-left: 152px;
+    z-index: 3;
+}
+section .order>.min_order1 {
+	display:block !important;
+	height:50px;
+}
+footer ul li{
+	float:left;
+}

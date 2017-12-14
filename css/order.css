@@ -1,0 +1,104 @@
+@charset "utf-8";
+.min_map{
+	margin-bottom:0px;
+}
+.order_banner{
+	width:100%;
+	margin:0px auto;
+}
+.form_box{
+	width:835px;
+	margin:50px auto;
+	margin-bottom:100px;
+}
+.myform p{
+	margin-bottom:30px;
+	font-size:12px;
+	color:#393939;
+}
+.myform p label{
+	display:block;
+	width:84px;
+	padding-left:104px;
+	font-size:14px;
+	font-weight:bold;
+	height:32px;
+	line-height:32px;
+	float:left;
+	color:black;
+	text-align:right;
+	margin-right:24px;
+}
+.myform p input[type=text],select{
+	height:30px;
+	line-height:30px;
+	width:252px;
+	outline: none;
+	padding-left:10px;
+}
+.myform p input[type=text]{
+	width:242px;
+}
+input::-webkit-input-placeholder{
+	color:#C7C1C0;
+	font-size:14px;
+}
+
+.myform p select{
+	background:#ddd;
+	border:0px;
+	margin-right: 14px;
+	margin-left:0px;
+	
+}
+.myform p select:nth-of-type(3){
+	width:522px;
+	margin-top:15px;
+	margin-left:212px;
+	
+}
+.myform p:nth-of-type(6){
+	line-height:1.5;
+}
+.myform p a{
+	color:#428BCA;
+}
+
+input[type=submit]{
+	width:238px;
+	height:40px;
+	border:0px;
+	font-weight:bold;
+	border-bottom:3px solid #0066C3;
+	background:#0082D9;
+	color:white;
+}
+.myform p:last-of-type>span{
+	float:left;
+	display:block;
+	width:238px;
+	position: relative;
+}
+.myform p:last-of-type>span:before{
+	width:0;
+	height:3px;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	content: "";
+	background:#0082D9;
+	transition:width 0.5s ease-in-out;
+}
+.myform p:last-of-type>span:hover:before{
+	width: 100%;
+}
+.myform p:last-of-type>span:hover input{
+	background: #0066C3;
+}
+
+
+
+
+
+
+
